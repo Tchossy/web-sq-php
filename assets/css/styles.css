@@ -32402,3 +32402,13 @@ Course Sidebar
   background-color: #273041;
 }
 /*# sourceMappingURL=../maps/styles.css.map */
+
+
+.zoomHover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-border-line {
+  border: 1px solid var(--color-primary);
+  border-radius: 6px
+}
