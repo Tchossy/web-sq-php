@@ -263,6 +263,10 @@
   box-sizing: border-box;
 }
 
+p {
+  text-align: justify;
+}
+
 article,
 aside,
 details,
@@ -1329,6 +1333,10 @@ ul.rbt-dropdown-menu li .sub-menu li a, ul.rbt-dropdown-menu li a .right-icon, u
 
 .bg-color-success-opacity {
   background-color: var(--success-opacity) !important;
+}
+
+.card-bg-primary {
+background: linear-gradient(to bottom,  #ff7400 61%,#C94A00 97%); 
 }
 
 .card-bg-1 {
@@ -18610,7 +18618,7 @@ span.transparent-button:hover i {
   margin: -10px;
 }
 .brand-style-3 li {
-  flex-basis: 14.28%;
+  flex-basis: 18%;
   text-align: center;
   padding: 10px;
 }
@@ -18638,7 +18646,7 @@ span.transparent-button:hover i {
   display: block;
 }
 .brand-style-3 li a img {
-  max-height: 35px;
+  /* max-height: 35px; */
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .brand-style-3 li a img {
@@ -31002,7 +31010,7 @@ Course Sidebar
 }
 .active-dark-mode .brand-style-1 li a,
 .active-dark-mode .brand-style-3 li a {
-  filter: contrast(0.5) grayscale(0.5) invert(0.5);
+  /* filter: contrast(0.5) grayscale(0.5) invert(0.5); */
 }
 .active-dark-mode .rbt-search-dropdown {
   background: var(--color-darker);
